@@ -5,7 +5,7 @@ stages:
     - src/get_data.py
     - src/load_data.py
     - data_given/winequality.csv
-    outs:
+    outs: #outputs
     - data/raw/winequality.csv
     
   split_data:
