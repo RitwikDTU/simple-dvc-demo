@@ -20,3 +20,6 @@
 17.To run the full thing -- dvc repro
 18.To check for parameters used and scores -- dvc metrics show
 19.To check differences from past model parameters & scores -- dvc metrics diff
+20.To go to a previous version, go to github repository and then in the commits tab and click on the copy sign beside the 
+   commit version you want to switch to and in the cmd write -- git checkout [paste the copied code from github without 
+   square brackets]
