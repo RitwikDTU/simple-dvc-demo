@@ -17,3 +17,6 @@
 15.push to repository -- git push origin main
 16. to add content changes to repository -- a) git add . && git commit -m "Update Readme.md"
                                             b) git push origin main
+17.To run the full thing -- dvc repro
+18.To check for parameters used and scores -- dvc metrics show
+19.To check differences from past model parameters & scores -- dvc metrics diff
