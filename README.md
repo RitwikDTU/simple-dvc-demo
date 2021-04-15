@@ -30,3 +30,7 @@
 23.To run same test using tox -- tox      ##it will create a virtual environment to run the tests.
 24.To reload the tox environment use -- tox -r
 25.To check which packages install in the environment -- pip freeze
+26.Setup commands:
+		a)pip install -e .
+27.Build your own package commands:
+				  a)python setup.py sdist bdist wheel
