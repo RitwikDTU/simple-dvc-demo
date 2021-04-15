@@ -34,3 +34,4 @@
 		a)pip install -e .
 27.Build your own package commands:
 				  a)python setup.py sdist bdist wheel
+28.For linting purpose, pip install flake8 and see the code in tox.ini file
