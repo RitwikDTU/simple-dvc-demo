@@ -23,3 +23,10 @@
 20.To go to a previous version, go to github repository and then in the commits tab and click on the copy sign beside the 
    commit version you want to switch to and in the cmd write -- git checkout [paste the copied code from github without 
    square brackets]
+21.Install pytest and tox and make the required files -- a)tests folder
+							 b)tests/test_config.py, tests/conftest.py, tests/__init__.py
+							 c)tox.ini file
+22.To run the test -- pytest -v
+23.To run same test using tox -- tox      ##it will create a virtual environment to run the tests.
+24.To reload the tox environment use -- tox -r
+25.To check which packages install in the environment -- pip freeze
